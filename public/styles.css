@@ -1,0 +1,294 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#OurService {
+    z-index: 10;
+}
+
+.bg-color {
+    background-color:#F1F3FF;
+}
+
+.logo{
+    background-color: #0d28a6; 
+    width: 80px; 
+    height: 30px;
+}
+
+.navbar{
+    margin: 0px;
+    padding: 10px 230px;
+    
+}
+
+.navbar_list_1 {
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbtn{
+    margin-left: 20px;
+}
+
+.content1_text1{
+    padding-left: 240px; 
+    padding-right: 200px;
+}
+
+.img1{
+    width: 900px; 
+    height: 500px; 
+    margin-left: 50px;
+}
+
+.kotak {
+    z-index: 100;
+    margin-top: -50px; 
+    width: 55%; 
+    padding: 10px; 
+    box-shadow: 2px 3px 5px 0px #777777; 
+    border-radius: 8px;
+    position: relative;
+}
+
+.img2{
+    width: 500px; 
+    height: 400px;
+}
+
+.content2 ul li img {
+    width:30px;
+    height:30px; 
+    margin-right: 10px;
+}
+
+.content2_row2_text {
+    margin-right: 150px;
+}
+
+.content2 .row {
+    padding: 20px;
+}
+
+.content2 .row .col1 {
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.content3{
+    padding: 0 230px;
+    margin-right: 50px;
+}
+
+.content3 .row{
+    justify-content: space-between;
+}
+
+.content4 #carousel{
+    width: 100vw; 
+    position: relative; 
+    left: calc(-50vw + 50%);
+}
+
+.card{
+    width: 350px;
+}
+
+.content4 .item .box {
+    width: 620px; 
+    height: 270px; 
+    background-color: #F1F3FF; 
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.content5_container {
+    background-color:#0D28A6; 
+    width: 76%; 
+    height: 326px; 
+    margin:auto; 
+    border-radius: 25px;
+}
+
+.content5_container_text {
+    padding: 200px;
+}
+
+.content6_container {
+    width: 77%;
+}
+
+footer .col .bi {
+    font-size: 16px;
+}
+
+footer .col .dot {
+    margin-right: 12px;
+}
+
+.footer_container {
+    width: 100%;
+    padding-left: 240px;
+    padding-right: 190px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+footer .dot{
+    height: 32px; 
+    width: 32px; 
+    border-radius: 50%;  
+    background: #0D28A6;
+    margin-right: 5px;
+}
+
+footer p{
+    font-size: 14px;;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar{
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .navbar ul li {
+        margin-left: 0px;
+    }
+
+    .navbtn {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+
+    .content1_text1{
+        margin: 0px;
+        padding-left: 20px; 
+        padding-right: 30px;
+    }
+
+    .img1{
+        width: 100%;
+        height: auto;
+        margin-left: 15px;
+    }
+
+    .img2{
+        max-width: 370px;
+        height: 310px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .content2_row2_text {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .content2 .row{
+        padding: 0px;
+        padding-left: 8px;
+    }
+    
+    .content2 .row .col1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .content3{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .content3_text1{
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    .kartu, .kartu1{
+        margin-top: 20px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .content4 #carousel{
+        position: relative; 
+        width: 100%;
+        left: calc(0vw + 0%);
+    }
+
+    .content4 .item .box {
+        width: 100%;
+        height: 372px; 
+        background-color: #F1F3FF; 
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+        border-radius: 10px;
+    }
+    
+    .content4 .container_testimoni {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content4 #stars {
+        margin-top: 20px;
+    }
+
+    .content4 .container_text {
+        padding: 0px 10px;
+    }
+
+    .content5_container {
+        background-color:#0D28A6; 
+        width: 100%; 
+        height: 400px; 
+        margin:auto; 
+        border-radius: 25px;
+    }
+
+    .content5_container_text {
+        padding: 70px 60px;
+    }
+
+    .content6_container {
+        width: 100%;
+    }
+
+    .content6_container_text{
+        text-align: center;
+    }
+
+    .footer_container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
